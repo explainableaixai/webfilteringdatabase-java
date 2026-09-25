@@ -1,0 +1,1 @@
+import com.alphaquantum.webfilteringdatabase.WebFilteringDatabaseClient;public class Example{public static void main(String[]args)throws Exception{var client=new WebFilteringDatabaseClient(System.getenv("AQ_API_KEY"));System.out.println(client.classify("example.com"));}}
