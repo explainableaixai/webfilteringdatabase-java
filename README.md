@@ -1,6 +1,6 @@
 # webfilteringdatabase (Java and Kotlin)
 
-JVM client for assigning web filtering categories to domains. Proxies, DNS services, parental-control backends and MSP platforms running on the JVM call `classify` for hosts their local list does not know, and get a category from the [filtering categories for JVM gateways](https://www.webfilteringdatabase.com) and other enforcement systems. Works from Java 11+ and from Kotlin.
+JVM client for assigning web filtering categories to domains. Proxies, DNS services, parental-control backends and MSP platforms running on the JVM call `classify` for hosts their local list does not know, and get a category from the [web filter lookup API](https://www.webfilteringdatabase.com/api-docs.php). Works from Java 11+ and from Kotlin.
 
 ## Dependency
 
@@ -83,11 +83,11 @@ The client sends the value you pass plus your key. It sends nothing about the us
 
 ## Education and CIPA
 
-US schools and libraries that receive E-rate funding must filter under the Children's Internet Protection Act. The adult, gambling, weapons and proxy categories cover those duties directly. Generative AI usually needs its own switch in schools, open for some lessons and closed during exams. For that, load [AI sites as a distinct filtering class](https://www.aitoolsblocklist.com) from the AI register.
+US schools and libraries that receive E-rate funding must filter under the Children's Internet Protection Act. The adult, gambling, weapons and proxy categories cover those duties directly. Generative AI usually needs its own switch in schools, open for some lessons and closed during exams. A [district AI rollout plan](https://www.aitoolsblocklist.com) usually includes that switch, fed from the AI register.
 
 ## Visibility first
 
-Before tightening rules, look at current behaviour. A [report on AI apps seen at the proxy](https://www.shadowaitools.com) is built from logs your platform already writes. For analytics rather than enforcement, [self-managed category downloads](https://www.urlcategorizationdatabase.com) give you topic labels in bulk.
+Before tightening rules, look at current behaviour. A [white-label shadow AI assessment](https://www.shadowaitools.com/white-label-shadow-ai-assessment.php) is built from logs your platform already writes. For analytics rather than enforcement, [URL database files](https://www.urlcategorizationdatabase.com/pricing.php) give you topic labels in bulk.
 
 ## Testing
 
